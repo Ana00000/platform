@@ -7,6 +7,9 @@ Clean CaDET started as a project funded by the [Science Fund of the Republic of 
 
 For an overview of the platform and its composing elements, check the [wiki pages](https://github.com/Clean-CaDET/platform/wiki).
 
+Disable bash history if you work with sensitive data!
+set +o history
+
 In order to build SmartTutor service run following command:
 `docker build -t cleancadet/smart-tutor --build-arg PROJECT=SmartTutor --target final .` 
 By default it downloads source code form master branch and builds it, but using SRC_URL different source code url can be set:

@@ -1,0 +1,1 @@
+docker build -t cleancadet/smart-tutor   --target final .
